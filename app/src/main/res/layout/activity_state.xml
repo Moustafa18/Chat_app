@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StateActivity">
+
+    <include
+        android:id="@+id/setting_status_toolbar"
+        layout="@layout/app_bar_layout"></include>
+
+    <EditText
+        android:id="@+id/setting_change_status"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:hint="Change Status"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <Button
+        android:id="@+id/setting_change_status_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="166dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="save changes"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+
+</RelativeLayout>

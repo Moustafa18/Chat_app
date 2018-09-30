@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/sign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartPageActivity">
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:background="@android:color/background_light"
+        android:text="ALREADY HAVE AN ACCOUNT?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:padding="10dp" />
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:background="@android:color/background_light"
+        android:text="NEED NEW ACCOUNT ?"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>
